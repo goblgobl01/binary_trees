@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 /**
- * binary_tree_node -function that return the a node if it succed.
+ * binary_tree_node - a function that creates a binary tree node.
  *
- * @parent : is the parent node.
- * @value : is the value that the new will contain.
+ * @parent : the parent node.
+ * @value : the created node's value.
  *
- * Return: Null if failed new_node if succeded.
+ * Return: the created node.
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)

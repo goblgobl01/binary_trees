@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_root - checks if a tree is a leaf or not.
+ * binary_tree_is_root - checks if a tree is a root.
  *
  * @node:  the node to check.
  *
- * Return: if node is null we return 0 otherwise node is a leaf return 1.
+ * Return: 1 if the node is a root, 0 otherwise.
  */
 
 int binary_tree_is_root(const binary_tree_t *node)
