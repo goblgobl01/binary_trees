@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_nodes - Counts the nodes in a binary tree with at least 1 child.
- * @tree: Points to the root node of the tre for which we count the number of nodes.
+ * @tree: Points to the root node of the tree to count the number of nodes.
  *
  * Return: 0 if the tree is NULL, return the node count otherwise.
  */
